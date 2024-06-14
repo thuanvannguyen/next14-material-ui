@@ -28,6 +28,7 @@ function MainMenu() {
   const handleButtonClick = (param: string) => {
     setSelection(param)
   }
+
   return (
     <Box sx={{
       display: 'flex',
